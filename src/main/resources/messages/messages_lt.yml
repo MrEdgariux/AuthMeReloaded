@@ -70,12 +70,12 @@ session:
 
 # Error messages when joining
 on_join_validation:
-    # TODO same_ip_online: 'A player with the same IP is already in game!'
+    same_ip_online: 'zaidejas su situo IP jau zaidzia serveryje'
     same_nick_online: '&cKazkas situo vardu jau zaidzia.'
     name_length: '&cJusu varsdas yra per ilgas arba per trumpas.'
     characters_in_name: '&cJusu varde yra neledziamu simboliu, leidziami: %valid_chars'
     kick_full_server: '&cServeris yra pilnas, Atsiprasome.'
-    # TODO country_banned: '&4Your country is banned from this server!'
+    country_banned: '&4Sita salis yra uzblokuota'
     # TODO not_owner_error: 'You are not the owner of this account. Please choose another name!'
     # TODO invalid_name_case: 'You should join using username %valid, not %invalid.'
     # TODO quick_command: 'You used a command too fast! Please, join the server again and wait more before using any command.'
